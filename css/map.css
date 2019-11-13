@@ -13,6 +13,10 @@ html, body {
   padding: 0;
 }
 
+h1 {
+  font-family: 'bearpawregular', cursive;
+}
+
 #main-navbar {
   background-color: blue;
   overflow: hidden;
