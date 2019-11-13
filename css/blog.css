@@ -1,0 +1,27 @@
+body { 
+  background-color: #d5ddde;
+  color: #1b2726;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+}
+
+h1 { 
+  color: #1b2726;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+}
