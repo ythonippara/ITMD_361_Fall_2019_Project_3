@@ -12,16 +12,44 @@ h1 {
   clear: left;
 }
 
-ul {
-  list-style-type: none;
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
 }
 
-ul li {
+#navbar-container {
+  float: left; 
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0; 
+  position: relative;
+  left: 50%;
   float: left;
 }
 
-ul li a {
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
   display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
   text-decoration: none;
 }
 
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#main-navbar #onpage {
+  text-decoration: underline;
+}
