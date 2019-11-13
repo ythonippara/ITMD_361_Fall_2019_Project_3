@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project for ITMD 361 Fall 2019</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/map.css" />
+  <link rel="stylesheet" type="text/css" href="css/bearpaw_regular_macroman/stylesheet.css">
+</head>
+<body>
+  <header>
+    <h1>Map</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="map.html">Map</a></li>
+    </ul>
+  </nav>
+  <div id="map"></div>
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of the Grant Park
+      var grantpark = {lat: 41.8722, lng: 87.6188};
+      // The map, centered at the Grant Park
+      var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 8, center: grantpark});
+      // The marker, positioned at the Grant Park
+      var marker = new google.maps.Marker({position: grantpark, map: map});
+    }
+  </script>
+  <script async defer 
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWShUUh_up2ux3aBJHdYcwKAHyZaHbyII&callback=initMap">
+  </script>
+  <footer>
+    <address>
+      <p id="notes">This site was created as a Semester Project for ITMD 361, Fall 2019</p>
+      <p>Copyright &#169; 2019 <a href="mailto:ythonippara@hawk.iit.edu">Yulia Thonippara</a>. All Rights Reserved.</p>
+    </address>
+  </footer>
+</body>
+</html>
