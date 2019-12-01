@@ -13,12 +13,42 @@ html, body {
   padding: 0;
 }
 
-h1 {
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #428c63;
+  font-size: 16px;
+}
+
+#content {
+  overflow: auto;
+  height: 100%;
+}
+
+#feature {
+  background-color: #a8d6bd;
+  padding: 10px;
+  margin: 10px;
+}
+
+#header, #nav, #footer {
+  background-color: #5a251f;
+  padding: 10px;
+  margin: 10px;
+  color: #fcfcfc;
+}
+
+#header h1 { 
+  color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  clear: left;
 }
 
 #main-navbar {
-  background-color: blue;
   overflow: hidden;
 }
 
@@ -47,14 +77,19 @@ h1 {
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: #fff;
+  color: #fcfcfc;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
 #main-navbar ul li a:hover {
-  background-color: #000;
+  background-color: #d69892;
 }
 
 #main-navbar #onpage {
-  text-decoration: underline overline;
+  text-decoration: underline;
+}
+
+p {
+  text-align: left;
 }
