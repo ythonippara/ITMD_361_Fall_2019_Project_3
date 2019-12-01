@@ -1,19 +1,24 @@
 body { 
   background-color: #d5ddde;
-  color: #1b2726;
+  font-size: 16px;
 }
 
-h1 { 
-  color: #1b2726;
+header {
+  background-color: #3D1F22;
+}
+
+header h1 { 
+  color: #ffffff;
   font-family: 'bearpawregular', cursive;
+  font-size: 32px;
   font-style: italic;
-  font-weight: normal;
+  font-weight: bold;
   text-align: left;
   clear: left;
 }
 
 #main-navbar {
-  background-color: blue;
+  background-color: #3D1F22;
   overflow: hidden;
 }
 
