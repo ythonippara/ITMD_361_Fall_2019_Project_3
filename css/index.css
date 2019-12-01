@@ -11,7 +11,9 @@ body {
 }
 
 #feature {
-  background-color: #a1ebce;
+  background-color: #a8d6bd;
+  padding: 10px;
+  margin: 10px;
 }
 
 #header, #nav, #footer {
