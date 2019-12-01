@@ -14,6 +14,7 @@ body {
 }
 
 #feature {
+  display: inline-block;
   float: left;
   width: 74%;
   background-color: #a8d6bd;
@@ -22,6 +23,7 @@ body {
 }
 
 aside {
+  display: inline-block;
   float: left;
   width: 24%;
   float: right;
