@@ -1,7 +1,7 @@
 body {
   width: 960px;
   margin: 0 auto;
-  background-color: #a1ebce;
+  background-color: #428c63;
   font-size: 16px;
 }
 
@@ -17,17 +17,16 @@ body {
 }
 
 header h1 { 
-  color: #ffffff;
+  color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
   font-size: 32px;
   font-style: italic;
-  font-weight: bold;
-  text-align: left;
+  font-weight: normal;
+  text-align: center;
   clear: left;
 }
 
 #main-navbar {
-  background-color: #3D1F22;
   overflow: hidden;
 }
 
@@ -56,12 +55,12 @@ header h1 {
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
-  color: #fff;
+  color: #fcfcfc;
   text-decoration: none;
 }
 
 #main-navbar ul li a:hover {
-  background-color: #000;
+  background-color: #d69892;
 }
 
 #main-navbar #onpage {
