@@ -10,7 +10,11 @@ body {
   height: 100%;
 }
 
-#nav, #feature, #footer {
+#feature {
+  background-color: #a1ebce;
+}
+
+#header, #nav, #footer {
   background-color: #5a251f;
   padding: 10px;
   margin: 10px;
@@ -19,7 +23,7 @@ body {
 header h1 { 
   color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
-  font-size: 32px;
+  font-size: 48px;
   font-style: italic;
   font-weight: normal;
   text-align: center;
@@ -56,6 +60,7 @@ header h1 {
   display: block;
   padding: 10px 20px;
   color: #fcfcfc;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -65,4 +70,8 @@ header h1 {
 
 #main-navbar #onpage {
   text-decoration: underline;
+}
+
+p {
+  text-align: left;
 }
