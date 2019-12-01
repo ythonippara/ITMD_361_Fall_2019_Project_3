@@ -11,7 +11,7 @@ body {
 }
 
 #feature {
-  background-color: #a8d6bd;
+  background-color: #6aba8f;
   padding: 10px;
   margin: 10px;
 }
@@ -20,9 +20,10 @@ body {
   background-color: #5a251f;
   padding: 10px;
   margin: 10px;
+  color: #fcfcfc;
 }
 
-header h1 { 
+#header h1 { 
   color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
   font-size: 48px;
