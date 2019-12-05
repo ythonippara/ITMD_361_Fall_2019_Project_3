@@ -92,6 +92,7 @@ figure figcaption {
   display: block;
   margin: 0px auto;
   text-align: center;
+  padding: 5px 0;
 }
 
 h1, h2, h3 {
