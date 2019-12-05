@@ -81,6 +81,7 @@ figure {
   margin: 0px auto;
   
 figure img {
+  text-align: center;
   vertical-align: top;
 }
 
