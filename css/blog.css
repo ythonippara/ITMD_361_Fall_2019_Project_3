@@ -2,43 +2,26 @@ body {
   width: 960px;
   margin: 0 auto;
   background-color: #428c63;
+  font-family: 'Lato', sans-serif; 
   font-size: 16px;
-  color: #fcfcfc;
-  font-family: 'Cormorant Garamond', serif;
-  text-align: left;
-}
-
-#content {
-  overflow: auto;
-  height: 100%;
-}
-
-#feature {
-  background-color: #a8d6bd;
-  padding: 10px;
-  margin: 10px;
 }
 
 #header, #nav, #footer {
   background-color: #5a251f;
   padding: 10px;
-  margin: 10px;
-  color: #fcfcfc;
+  margin: 0 10px;
 }
 
-#header h1 { 
+#footer p {
   color: #fcfcfc;
-  font-family: 'bearpawregular', cursive;
-  font-size: 48px;
-  font-style: italic;
-  font-weight: normal;
   text-align: center;
-  clear: left;
 }
 
-h1 { 
-  color: #1b2726;
+#hero { 
+  margin: 0;
+  color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
+  font-size: 60px;
   font-style: italic;
   font-weight: normal;
   text-align: center;
@@ -74,6 +57,7 @@ h1 {
   display: block;
   padding: 10px 20px;
   color: #fcfcfc;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -84,6 +68,41 @@ h1 {
 
 #main-navbar #onpage {
   text-decoration: underline;
+}
+
+#content {
+  overflow: auto;
+  height: 100%;
+}
+
+#feature {
+  background-color: #a8d6bd;
+  padding: 20px;
+  margin: 0 10px;
+  color: #5a251f;
+}
+
+figure {
+  display: block;
+  margin: 0px auto;
+}
+  
+figure img {
+  vertical-align: top;
+  display: block;
+  margin: 0px auto;
+
+}
+
+figure figcaption {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 5px 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
 }
 
 p {
