@@ -89,7 +89,9 @@ figure img {
 }
 
 figure figcaption {
-  text-align: center;
+  display: block;
+  margin: 0px auto;
+  text-align: left;
 }
 
 h1, h2, h3 {
