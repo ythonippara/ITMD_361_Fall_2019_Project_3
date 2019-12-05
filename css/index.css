@@ -76,6 +76,11 @@ body {
   margin: 0 10px;
 }
 
+img {
+  display: block;
+  margin: 0px auto;
+}
+
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
