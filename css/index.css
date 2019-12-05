@@ -79,11 +79,13 @@ body {
 figure {
   display: block;
   margin: 0px auto;
-  justify-content: center;
 }
   
 figure img {
   vertical-align: top;
+  display: block;
+  margin: 0px auto;
+
 }
 
 figure figcaption {
