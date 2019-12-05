@@ -79,9 +79,10 @@ body {
 figure {
   display: block;
   margin: 0px auto;
+  justify-content: center;
+}
   
 figure img {
-  text-align: center;
   vertical-align: top;
 }
 
