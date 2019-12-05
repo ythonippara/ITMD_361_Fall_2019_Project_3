@@ -18,7 +18,7 @@ h1, h2, h3 {
 #feature {
   background-color: #a8d6bd;
   padding: 10px;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 #header, #nav, #footer {
