@@ -101,8 +101,14 @@ figure figcaption {
   padding: 5px 0;
 }
 
+#video_wrapper {
+  display: block;
+  margin: 0px auto;
+}
+  
 iframe {
-  align: middle;
+  display: block;
+  margin: 0px auto;
 }
 
 h1, h2, h3 {
