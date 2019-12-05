@@ -81,6 +81,11 @@ img {
   margin: 0px auto;
 }
 
+figcaption {
+  display: block;
+  text-align: left;
+}
+
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
