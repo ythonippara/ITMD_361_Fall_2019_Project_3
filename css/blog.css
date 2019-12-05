@@ -101,6 +101,10 @@ figure figcaption {
   padding: 5px 0;
 }
 
+iframe {
+  align: middle;
+}
+
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
