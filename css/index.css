@@ -76,14 +76,15 @@ body {
   margin: 0 10px;
 }
 
-img {
+figure {
   display: block;
   margin: 0px auto;
+  
+figure img {
+  vertical-align: top;
 }
 
-figcaption {
-  display: block;
-  margin: 0 auto;
+figure figcaption {
   text-align: left;
 }
 
