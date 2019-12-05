@@ -2,54 +2,26 @@ body {
   width: 960px;
   margin: 0 auto;
   background-color: #428c63;
+  font-family: 'Lato', sans-serif; 
   font-size: 16px;
-  color: #fcfcfc;
-  font-family: 'Cormorant Garamond', serif;
-  text-align: left;
-}
-
-#content {
-  overflow: auto;
-  height: 100%;
-}
-
-#feature {
-  display: inline-block;
-  float: left;
-  width: 74%;
-  background-color: #a8d6bd;
-  margin: 10px;
-  padding: 10px;
-}
-
-aside {
-  display: inline-block;
-  float: left;
-  width: 24%;
-  float: right;
-  padding: 0px, 0px, 0px, 0px;
 }
 
 #header, #nav, #footer {
   background-color: #5a251f;
   padding: 10px;
-  margin: 10px;
-  color: #fcfcfc;
+  margin: 0 10px;
 }
 
-#header h1 { 
+#footer p {
   color: #fcfcfc;
-  font-family: 'bearpawregular', cursive;
-  font-size: 48px;
-  font-style: italic;
-  font-weight: normal;
   text-align: center;
-  clear: left;
 }
 
-h1 { 
-  color: #1b2726;
+#hero { 
+  margin: 0;
+  color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
+  font-size: 60px;
   font-style: italic;
   font-weight: normal;
   text-align: center;
@@ -85,6 +57,7 @@ h1 {
   display: block;
   padding: 10px 20px;
   color: #fcfcfc;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -97,28 +70,32 @@ h1 {
   text-decoration: underline;
 }
 
+#content {
+  overflow: auto;
+  height: 100%;
+}
+
+#feature {
+  display: inline-block;
+  float: left;
+  width: 74%;
+  background-color: #a8d6bd;
+  margin: 10px;
+  padding: 10px;
+}
+
+aside {
+  display: inline-block;
+  float: left;
+  width: 24%;
+  float: right;
+  padding: 0px, 0px, 0px, 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
 p {
   text-align: left;
-}
-
-h1 { 
-  color: #535D55;
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-weight: normal;
-  text-align: center;
-}
-
-h2 h3 { 
-  color: #535D55;
-  font-family: 'Cormorant Garamond', serif;
-  font-style: normal;
-  font-weight: 400;
-  text-align: left;
-}
-
-p { 
-  font-family: 'Proza Libre', sans-serif;
-  color: #514644;
-  text-align: justify;
 }
