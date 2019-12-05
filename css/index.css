@@ -24,11 +24,10 @@ h1, h2, h3 {
 #header, #nav, #footer {
   background-color: #5a251f;
   padding: 10px;
-  margin: 10px;
-  color: #fcfcfc;
+  margin: 0 10px;
 }
 
-#header { 
+#hero { 
   color: #fcfcfc;
   font-family: 'bearpawregular', cursive;
   font-size: 60px;
